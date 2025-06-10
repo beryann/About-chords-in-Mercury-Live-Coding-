@@ -1,0 +1,22 @@
+//Basic chords Major, Minor with 3 notes 
+//Comment or uncomment out the chord you wish to listen to.
+
+//set scale major c 
+
+//list chd [[ 0 4 7 ]]
+//new polySynth saw note(chd 1) time(1/4)
+
+//set scale minor c 
+//list chd [[ 0 3 or 4 7 ]]
+//new polySynth saw note(chd 1) time(1/4)
+
+//Or without set scale major or minor 
+//set scale none 
+
+//chord: c major
+//list chd [[ 0 4 7 ]]
+//new polySynth saw note(chd 1) time(1/4)
+
+//Chord: c minor 
+//list chd [[ 0 3 7 ]]
+//new polySynth saw note(chd 1) time(1/4)
