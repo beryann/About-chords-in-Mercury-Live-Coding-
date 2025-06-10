@@ -1,4 +1,7 @@
-//Here a list of basic chords we are going to see together and their realisation in Mercury
+//Work in progress!  
+
+//Hello! Here a list of basic chords we are going to see together and their realisation in Mercury.
+//We'll see also how to do random chords
 //The first note of the chord is the "root".To obtain chord inversions in music, change the root with an other note of the chord. But apparently Mercuy doesn't make the difference.
 
 // C7 = [do mi sol sib]
