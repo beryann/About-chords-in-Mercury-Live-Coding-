@@ -1,0 +1,40 @@
+//Copy and paste in Mercury!
+//please comment and uncomment based on the chord you want to study
+
+//The 4 different chords we are going to see in our tutorials 
+// C major = C [do mi sol]
+// C7 = [do mi sol sib]
+//Cm7 = [do mib sol sib]
+// CM7 or cmaj7= [do mi sol si]
+// CM9 or cmaj9= [do mi sol si re]
+
+//The first chord of this list is: C7 a very important chord in music discovered by the great composer Monteverdi! 
+//We have already seen this chord C major which is the basis for building the C7, C9, C11, and C13. 
+//Let's take a look at the different chords with a seventh.
+
+// C7 = [do mi sol sib]
+//You have to set scale none
+//set scale none 
+//list chd [[ 0 4 7 10 ]]
+//new polySynth saw note(chd 1) time(1/4)
+
+//////////////////// 
+
+//Thus, if we refer to the previous tutorial, there are 2 other possibilities to achieve this chord.
+//This way, as I said before, is very interesting since we can modify each note and affect different modifications and fx() for each note
+//Change the synth, the time(), add an effect fx() for each note
+
+//new synth sine note(0 2) time(1/4) 
+//new synth sine note(4 2) time(1/4) 
+//new synth sine note(7 2) time(1/4) 
+//new synth sine note(10 2) time(1/4) 
+
+////////////////////////////
+
+//And the third possibility given by the tuorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
+//These 3 7th chords are a classic chord progression in blues for example
+
+//list progression chordsFromNumerals([I7 IV7 V7 ])
+//new polySynth sine note(progression 2) time(1/1) shape(1 3/4 1/4) 
+
+//So in the nex tutorial we'll Cm7 = [do mib sol sib] 
