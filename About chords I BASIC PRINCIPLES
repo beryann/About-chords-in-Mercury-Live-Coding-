@@ -15,8 +15,8 @@ do= c re = D/d, mi = E/e, fa= F/f, sol = G/g, la = A/a, si = B/b Notes are used 
 //The first note of the chord is the "root".To obtain chord inversions in music, change the root with an other note of the chord. But I am not sur that Mercuy makes the difference 
 
 
-// C7 = [do mi sol sib]
 // C major = C [do mi sol]
+// C7 = [do mi sol sib]
 // CM7 or cmaj7= [do mi sol si]
 // CM9 or cmaj9= [do mi sol si re] 
 
