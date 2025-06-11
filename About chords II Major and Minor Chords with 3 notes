@@ -23,3 +23,30 @@
 //Chord: c minor 
 //list chd [[ 0 3 7 ]]
 //new polySynth saw note(chd 1) time(1/4)
+
+////////////////////////////////
+
+//There 2 others possibilities to make these chords:
+
+//The first one is very interesting because you add different modifications and effects for each note!
+//Look at the 2nd one, the minor one: I have changed the synths, changed the time() for the root, added an effect fx() to the second note (3) and add the play() function to the quint (7) 
+//We can do this with all the agreements that we will see afterwards.
+
+//C major 
+//new synth sine note(0 2) time(1/4)
+//new synth sine note(4 2) time(1/4)
+//new synth sine note(7 2) time(1/4)
+
+//C minor 
+//new synth sine note(0 2) time(1/8) 
+//new synth saw note(3 2) time(1/4) fx(delay) 
+//new synth triangle note(7 2) time(1/4) play(0.6)
+
+//Last (but not at least!) the other possibility is with "chordsFromNumerals()", cf. tutorial 221 
+//It is this example that I reeuse here: 
+
+//list progression chordsFromNumerals([I IV V VIm])
+//new polySynth sine note(progression 2) time(1/1) shape(1 3/4 1/4) 
+//So you have here C [do mi sol], F [fa la do] , G |sol si re] and Am [la do mi] 
+//And Timo precises this: "It is also possible to add the 7, 9, 11 or 13th" So, It's what we'll see in the next tutorial.
+
