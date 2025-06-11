@@ -48,5 +48,5 @@
 //list progression chordsFromNumerals([I IV V VIm])
 //new polySynth sine note(progression 2) time(1/1) shape(1 3/4 1/4) 
 //So you have here C [do mi sol], F [fa la do] , G |sol si re] and Am [la do mi] 
-//And Timo precises this: "It is also possible to add the 7, 9, 11 or 13th" So, It's what we'll see in the next tutorial.
+//And Timo Hoogland precises this: "It is also possible to add the 7, 9, 11 or 13th" So, It's what we'll see in the next tutorial.
 
