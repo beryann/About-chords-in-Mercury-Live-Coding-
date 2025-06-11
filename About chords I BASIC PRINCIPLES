@@ -7,7 +7,7 @@ do= c re = D/d, mi = E/e, fa= F/f, sol = G/g, la = A/a, si = B/b Notes are used 
 //The basic principles are:a chord consists of at least 3 notes; otherwise, it is an interval! So, a powerchord like [ do sol] is just an interval!
 //--> A major or minor chord is made up of 3 notes: a root, a third, and a fifth. It is major if the third is major and it is minor if the third is minor, that’s all.
 //For example, C major is made up of the notes [C E G] and C minor is made up of [C E♭ G]. 
-//Here we can clearly see that the third is different, and it is this smaller third in the minor chord with the flat (1/2 tone lower) that makes the difference between major and minor.
+//Here we can clearly see that the third is different [eb], and it is this smaller third in the minor chord with the flat (1/2 tone lower) that makes the difference between major and minor.
 
 
 //2 WHAT CHORDS ARE GOING TO STUDY?
