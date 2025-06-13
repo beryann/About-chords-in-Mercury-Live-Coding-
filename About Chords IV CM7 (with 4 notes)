@@ -1,0 +1,40 @@
+//Copy and paste in Mercury!
+//please comment and uncomment based on the chord you want to study
+
+//The second chord of this list is: CM7
+//It has 4 notes [do mi sol si] and is very based on the C chord [do mi sol]
+//It sounds harder than the C7 because its seventh note is major.
+
+// CM7 = [do mi sol si]
+//You have to set scale none
+
+//set scale none 
+//list chd [[ 0 4 7 11 ]]
+//new polySynth triangle note(chd 1) time(1/4) gain(1.1)
+
+//////////////////// 
+
+//Thus, if we refer to the previous tutorial, there are 2 other possibilities to achieve this chord.
+//This way, as I said before, is very interesting since we can modify each note and affect different modifications and fx() for each note
+//Change the synth, the time(), add an effect fx() for each note
+
+//new synth sine note(0 2) time(1/4) 
+//new synth sine note(4 2) time(1/4) 
+//new synth sine note(7 2) time(1/4) 
+//new synth sine note(11 2) time(1/4) 
+
+//becomes this for instance 
+
+//new synth saw note(0 2) time(1/8) fx(lfo) 
+//new synth sine note(4 2) time(1/4) pan(random)
+//new synth square note(7 2) time(1/16) play(0.8) fx(lfo 1/16)
+//new synth triangle note(11 2) time(1/2) fx(reverb) gain(1.1)
+
+////////////////////////////
+
+//And the third possibility given by the tuorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
+
+//list progression chordsFromNumerals([IM7 VM7 ])
+//new polySynth saw note(progression 2) time(1/1) shape(1 3/4 1/4) 
+
+//So in the nex tutorial we'll CM9 = [do mi sol si] 
