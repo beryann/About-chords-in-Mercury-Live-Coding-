@@ -5,8 +5,9 @@
 
 // C major = C [do mi sol]
 // C7 = [do mi sol sib]
-// CM7 or cmaj7= [do mi sol si]
-// CM9 or cmaj9= [do mi sol si re]
+// CM7 or cMaj7= [do mi sol si]
+// CM9 or cMaj9= [do mi sol si re]
+// CM11 or cMaj9= [do mi sol si re fa]
 
 //The first chord of this list is: C7 a very important chord in music discovered by the great composer Monteverdi! 
 //We have already seen this chord C major which is the basis for building the C7, C9, C11, and C13. 
