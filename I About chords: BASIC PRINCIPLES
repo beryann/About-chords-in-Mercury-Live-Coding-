@@ -17,8 +17,12 @@ do= c re = D/d, mi = E/e, fa= F/f, sol = G/g, la = A/a, si = B/b Notes are used 
 
 // C major = C [do mi sol]
 // C7 = [do mi sol sib]
-// CM7 or cmaj7= [do mi sol si]
-// CM9 or cmaj9= [do mi sol si re] 
+// CM7 or cMaj7= [do mi sol si]
+// C9 or c9= [do mi sol sib re]
+// CM9 or cMaj9= [do mi sol si re]
+// C11 or c11= [do mi sol sib re fa] 
+// CM11 or cMaj11= [do mi sol si re fa] 
+
 
 
 // C minor = Cm [do mib sol] 
