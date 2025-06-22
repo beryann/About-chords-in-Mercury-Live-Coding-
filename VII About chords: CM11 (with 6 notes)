@@ -1,0 +1,45 @@
+//Copy and paste in Mercury!
+//please comment and uncomment based on the chord you want to study
+
+//The 5th chord of this list is: CM11
+//It has 6 notes [do mi sol si re fa] and is also based on the C  major chord [do mi sol]
+//It's a fairly complex chord with a very rich sound. There is a version with fa# that is even richer, but we will only study the version with fa natural.
+
+// CM11 = [do mi sol si re fa ]
+
+//You have to set scale none
+
+//set scale none 
+//list chd [[ 0 4 7 11 14  17 ]]
+//Try out with fa#
+//list chd [[ 0 4 7 11 14  18 ]]
+//new polySynth triangle note(chd 1) time(1/4) gain(1.1)
+
+//////////////////// 
+
+//Thus, if we refer to the previous tutorial, there are 2 other possibilities to achieve this chord.
+//This way, as I said before, is very interesting since we can modify each note and affect different modifications and fx() for each note
+//Change the synth, the time(), add an effect fx() for each note
+
+//new synth sine note(0 2) time(1/4) 
+//new synth sine note(4 2) time(1/4) 
+//new synth sine note(7 2) time(1/4) 
+//new synth sine note(11 2) time(1/4) 
+//new synth sine note(14 2) time(1/4) 
+//new synth sine note(17 2) time(1/4) 
+
+//becomes this for instance 
+
+//new synth saw note(0 1) time(1/2) shape(off) 
+//new synth sine note(4 2) time(1/16) fx(delay)
+//new synth square note(7 2) play(0.8) 
+//new synth triangle note(11 2) time(1/4) fx(reverb 0.4 6) gain(1.1)
+//new synth square note(14 2) time(1/2 1/8) shape(off) gain(0.6)
+//new synth triangle note(17 2) time(1/4) fx(reverb 0.6 4) gain(1.2)
+
+////////////////////////////
+
+//And the third possibility given by the tuorial 221 in the Mercury browser but his time with that chord I think it doesn't work....
+
+//list progression chordsFromNumerals([IM11 VIM11 ])
+//new polySynth saw note(progression 2) time(1/1) shape(1 3/4 1/4) fx(reverb)
