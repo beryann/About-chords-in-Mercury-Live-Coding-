@@ -39,7 +39,7 @@
 
 ////////////////////////////
 
-//And the third possibility given by the tuorial 221 in the Mercury browser but his time with that chord I think it doesn't work....
+//And the third possibility given by the tutorial 221 in the Mercury browser but his time with that chord I think it doesn't work....
 
 //list progression chordsFromNumerals([IM11 VIM11 ])
 //new polySynth saw note(progression 2) time(1/1) shape(1 3/4 1/4) fx(reverb)
