@@ -4,7 +4,7 @@
 
 //2 situations: with or without scale! The difference is subtle and will be more evident with more complex chords.
 
-//set scale major c 
+//set scale major C 
 
 //list chd [[ 0 4 7 ]]
 //new polySynth saw note(chd 1) time(1/4)
