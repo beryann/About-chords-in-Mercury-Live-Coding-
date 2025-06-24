@@ -34,7 +34,7 @@
 
 ////////////////////////////
 
-//And the third possibility given by the tuorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
+//And the third possibility given by the tutorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
 //These 3 7th chords are a classic chord progression in blues for example
 
 //list progression chordsFromNumerals([I7 IV7 V7 ])
