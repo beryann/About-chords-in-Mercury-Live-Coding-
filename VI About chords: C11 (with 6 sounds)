@@ -37,7 +37,7 @@
 
 ////////////////////////////
 
-//And the third possibility given by the tuorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
+//And the third possibility given by the tutorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
 
 //list progression chordsFromNumerals([I11 IV11 VI11 ])
 //new polySynth saw note(progression 2) time(1/1) shape(1 3/4 1/4) fx(reverb)
