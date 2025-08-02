@@ -1,0 +1,39 @@
+//Copy and paste in Mercury!
+//please comment and uncomment based on the chord you want to study
+
+//We are now going to study the chord classified C° or cdim 
+//It's an exciting chord with a very complex sound. 
+
+//C° or cdim = [do mib solb la]
+
+//You have to set scale none
+
+//set scale none 
+
+//list chd [[ 0 3 6 9 ]]
+//new polySynth triangle note(chd 1) time(1/4) gain(1.1)
+
+//////////////////// 
+
+//Thus, if we refer to the previous tutorial, there are 2 other possibilities to achieve this chord.
+//This way, as I said before, is very interesting since we can modify each note and affect different modifications and fx() for each note
+//Change the synth, the time(), add an effect fx() for each note
+
+//new synth sine note(0 2) time(1/4) 
+//new synth sine note(3 2) time(1/4) 
+//new synth sine note(6 2) time(1/4) 
+//new synth sine note(9 2) time(1/4) 
+
+//becomes this for instance 
+
+//new synth square note(0 2) time(1/4 1/16) fx(vowel 2) 
+//new synth triangle note(3 2) shape(off)
+//new synth saw note(7 2) time(1/2 1/16) fx(distort)
+//new synth sine note(10 2) time(3/8 7/5) fx(reverb)
+
+////////////////////////////
+
+//And the third possibility given by the tutorial 221 in the Mercury browser. I made here some adaptations to this tutorial to show you how it works
+
+//list progression chordsFromNumerals([I° Vm7 VI°])
+//new polySynth saw note(progression 2) time(1/1) shape(1 3/4 1/4) fx(reverb)
