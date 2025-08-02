@@ -31,7 +31,7 @@ do= c re = D/d, mi = E/e, fa= F/f, sol = G/g, la = A/a, si = B/b Notes are used 
 // Cm11 or cmin11 = [do mib sol sib re fa] 
 
 
-// C° or cdim = [do mib solb] 
+// C° or cdim = [do mib solb la] 
 // Caug or c+ = [do mi sol#]
 // Csus2 = [do re sol]
 // Csus4 = [do fa sol]
